@@ -50,6 +50,9 @@
         <icon height="167" src="www/res/icon/ios/icon-167.png" width="167" />
         <icon height="167" src="www/res/icon/ios/icon-83.5@2x.png" width="167" />
     </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
     <engine name="android" spec="~7.1.4" />
     <engine name="ios" spec="~4.5.5" />
     <engine name="browser" spec="~5.0.4" />
