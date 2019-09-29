@@ -1,0 +1,35 @@
+body {
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.encabezado-right, .encabezado-left {
+    padding: 2em;
+}
+
+.encabezado-right a {
+    top: 2em !important;
+    right: 2em !important;
+}
+
+.encabezado-left a {
+    top: 2em !important;
+    left: 2em !important;
+}
+
+li:nth-child(odd):not(.ui-li-divider), li:nth-child(odd):not(.ui-li-divider) a {
+    background: #bbb !important;
+    text-shadow: none;
+}
+
+li:nth-child(even):not(.ui-li-divider), li:nth-child(even):not(.ui-li-divider) a {
+    background: #eee !important;
+    text-shadow: none;
+}
