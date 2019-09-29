@@ -7,10 +7,10 @@ var firstContenido = true;
 var app = {
     // Application Constructor
     initialize: function() {
-        navigator.splashscreen.show();
-        setTimeout(function() {
-            navigator.splashscreen.hide();
-        }, 2000);
+//        navigator.splashscreen.show();
+//        setTimeout(function() {
+//            navigator.splashscreen.hide();
+//        }, 2000);
 
         $.ajax({
             url: dominio + "menu",
