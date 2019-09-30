@@ -1,6 +1,6 @@
 var opcion = 0;
 var contenido = 0;
-var dominio = "http://tonivf.no-ip.org/json/";
+var dominio = "https://ciberfamilias.es/json/";
 var firstApartados = true;
 var firstContenido = true;
 
