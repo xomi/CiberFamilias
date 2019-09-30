@@ -12,6 +12,8 @@ var app = {
 //            navigator.splashscreen.hide();
 //        }, 2000);
 
+        window.CacheClear();
+
         $.ajax({
             url: dominio + "menu",
 //            async: false,
@@ -25,7 +27,10 @@ var app = {
                 $("#menu").page().page("destroy").page();
                 lista = $("#lista-menu").listview();
                 lista.listview('refresh');
-                $("#botonCierre").click(function() { navigator.app.exitApp(); });
+                $("#botonCierre").click(function() {
+                    window.CacheClear();
+                    navigator.app.exitApp();
+                });
             }
         });
     },
