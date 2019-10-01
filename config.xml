@@ -22,6 +22,8 @@
     <preference name="FadeSplashScreen" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="true" />
     <platform name="android">
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
             <application android:usesCleartextTraffic="true" />
@@ -72,6 +74,9 @@
     </platform>
     <access origin="*" />
     <allow-navigation href="*://ciberfamilias.es/*" />
+    <allow-navigation href="*youtube*" />
+    <allow-navigation href="*ytimg*" />
+    <allow-navigation href="*youtube-nocookie*" />
     <allow-intent href="*://ciberfamilias.es/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
